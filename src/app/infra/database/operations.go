@@ -1,15 +1,15 @@
 package database
 
 import (
+	"context"
 	"fmt"
 	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
 	"io"
 	"log"
 	"time"
-
 	//mysql dialects
 	"gorm.io/driver/mysql"
+	"gorm.io/gorm/logger"
 	"os"
 	"sync"
 )
@@ -59,12 +59,16 @@ func (database *Database) open() (err error) {
 	password := database.Password
 	location := database.Location
 	port := database.Port
-	logPath := database.logPath
-
-	newLogger := database.SetupDBLogger(logPath)
-
 	url := user + ":" + password + "@tcp(" + location + ":" + port + ")/" + dbName + "?charset=utf8&parseTime=True"
-	conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: newLogger})
+
+	//Option 1
+	//logPath := database.logPath
+	//newLogger := database.SetupDBLogger(logPath)
+	//conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: newLogger})
+
+	//Option 2
+	conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: NewDBLogger()})
+	conn.Logger.LogMode(logger.Info)
 	if err != nil {
 		msg := fmt.Errorf("Error in opening connection to database with URL %s, Reason: %v ", url, err)
 		fmt.Println(msg)
@@ -84,16 +88,16 @@ func (database *Database) SetupDBLogger(logPath string) logger.Interface {
 	} else {
 		file, _ = os.OpenFile(logPath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0666)
 	}
-	newLogger := getDBLogger(file)
+	newLogger := GetDBLogger(file, context.Background())
 	return newLogger
 }
 
-func getDBLogger(file io.Writer) logger.Interface {
+func GetDBLogger(file io.Writer, ctx context.Context) logger.Interface {
 	newLogger := logger.New(
 		log.New(file, "\r\n", log.LstdFlags), // io writer
 		logger.Config{
 			SlowThreshold: time.Second, // Slow SQL threshold
-			LogLevel:      logger.Info, // Log level
+			LogLevel:      logger.Info, // GORM defined log levels: Silent, Error, Warn, Info
 			Colorful:      false,       // Disable color
 		},
 	)

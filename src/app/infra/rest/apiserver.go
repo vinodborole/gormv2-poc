@@ -131,7 +131,7 @@ func setupDefaultData(ctx context.Context) {
 	_, err := infra.GetUseCaseInteractor().Db.GetApp(app.Name)
 	if err != nil {
 		log.Infoln("Creating app as it does not exist")
-		err = infra.GetUseCaseInteractor().Db.CreateApp(&app)
+		err = infra.GetUseCaseInteractor().Db.CreateApp(&app, ctx)
 		if err != nil {
 			log.Errorln("Error creating App ", err.Error())
 		}

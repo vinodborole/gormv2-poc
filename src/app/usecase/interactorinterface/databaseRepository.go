@@ -2,6 +2,7 @@ package interactorinterface
 
 import (
 	"app/infra/database"
+	"context"
 	"gorm.io/gorm"
 )
 
@@ -14,5 +15,5 @@ type DatabaseRepository interface {
 
 	//App Info
 	GetApp(appName string) (database.App, error)
-	CreateApp(app *database.App) error
+	CreateApp(app *database.App, ctx context.Context) error
 }
