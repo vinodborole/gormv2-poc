@@ -2,13 +2,13 @@
 This project showcases GoRM v2 features
 
 GoRM features include
-1. Connection Pooling
-2. Transaction and Nested transaction
-3. Transactions with save points
-4. Bulk Insert
-5. Logging SQL scripts to a separate file
+1. Logging SQL scripts to a separate file
+2. Connection Pooling
+3. Transaction and Nested transaction
+4. Transactions with save points
+5. Bulk Insert 
 
-
+Apart from GoRM features, it also make use of https://github.com/smallnest/gen library to auto generate gorm models
 
 Core following features
 
@@ -23,6 +23,8 @@ Core following features
 
 # Usage
 
+### Step 1
+
 Clone the project set the GOPATH to git clone directory and resolve dependency using dep ensure library management
 
 ```
@@ -31,23 +33,13 @@ Clone the project set the GOPATH to git clone directory and resolve dependency u
 #> cd gormv2-poc/src/app
 #gormv2-poc/src/app> dep ensure
 
-#> cd gormv2-poc/scripts
-#gormv2-poc/scripts> sh build.sh
-
 ```
-Copy gormv2-poc/src/app/config/yaml folder inside /gormv2-poc/bin directory
-
+### Step 2
 Modify /gormv2-poc/yaml/config.yaml as per your requirement
 
-If using Mysql, login and create empty database.
+### Step 3
+Create Empty Database
 
-Execute App
-```
-#gormv2-poc/bin> ./app
-
-```
-
-Check/Create Database
 ```
 #>mysql -u root -p
 Enter password: 
@@ -61,31 +53,31 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MySQL [(none)]>CREATE DATABASE myapp;
 Query OK, 1 row affected (0.024 sec)
+```
+### Step 4
+Run the schema script from etc/db.sql to generate tables
 
-MySQL [(none)]>use myapp;
-Database changed
-MySQL [myapp]> show tables;
-+-----------------+
-| Tables_in_myapp |
-+-----------------+
-| apps            |
-+-----------------+
-1 row in set (0.017 sec)
-
-MySQL [myapp]> select * from apps;
-+----+---------------------+---------------------+------------+---------------------+-------------------------------+------------------+------+
-| id | created_at          | updated_at          | deleted_at | name                | description                   | url              | port |
-+----+---------------------+---------------------+------------+---------------------+-------------------------------+------------------+------+
-|  1 | 2020-09-09 17:10:32 | 2020-09-09 17:10:32 | NULL       | restapi-boilerplate | REST API boiler plate code go | http://localhost | 8080 |
-+----+---------------------+---------------------+------------+---------------------+-------------------------------+------------------+------+
-1 row in set (0.004 sec)
+### Step 5
+Build the Project [This will also autogenerate the DB models based on the database schema]
+```
+#> cd gormv2-poc/scripts
+#gormv2-poc/scripts> sh build.sh
 
 ```
+### Step 6
+
+Execute App
+```
+#gormv2-poc/bin> ./app
+
+```
+
+### Step 7
 
 Execute REST API
 ```
 #>curl localhost:8080/v1/about
-{"name":"gormv2-poc","description":"REST API boiler plate code go","url":"http://localhost","port":"8080"
+{"name":"gormv2-poc","description":"Gorm version 2 POC","url":"http://localhost","port":"8080"
 ```
 
 
@@ -110,7 +102,8 @@ This structure is inspired from clean code architecture
 │   ├── infra
         └── constants //define constants used in app
         └── database
-            └── models.go //define database models/tables struct
+            └── model
+                └──*.go //define database models/tables struct
             └── operations.go //database connection/transaction management framework
         └── logging
              └── auditlog.go // framework for audit log on every request
