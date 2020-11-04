@@ -2,7 +2,10 @@
 This project showcases GoRM v2 features
 
 GoRM features include
-1. Logging SQL scripts to a separate file
+1. Logging [Two Options]
+
+    a. Into a separate file    
+    b  Using existing logrus     
 2. Connection Pooling
 3. Transaction and Nested transaction
 4. Transactions with save points
