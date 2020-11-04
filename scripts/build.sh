@@ -12,7 +12,7 @@ evaluate_home_dir(){
 
 evaluate_home_dir
 echo "BASE_DIR" $BASE_DIR
-HOME_DIR=$BASE_DIR/restapi-boilerplate
+HOME_DIR=$BASE_DIR/gormv2-poc
 export GOPATH=$GOPATH$PATH_SEP$HOME_DIR
 
 echo "GOPATH" $GOPATH
@@ -44,3 +44,7 @@ golint $(go list ./... | grep -v generated|swagger)
 #Build the Code
 echo "Building server binary"
 go install
+
+echo "Copy Configs"
+mkdir -p $HOME_DIR/bin/yaml
+cp -R $HOME_DIR/src/app/config/yaml/config.yaml $HOME_DIR/bin/yaml/

@@ -71,8 +71,9 @@ func (s *APIServer) RunAPIServer() {
 	dbName := config.GetConfig().MyAppConfig.Database.DBName
 	location := config.GetConfig().MyAppConfig.Database.Location
 	port := config.GetConfig().MyAppConfig.Database.Port
+	logPath := config.GetConfig().MyAppConfig.Database.LogPath
 	log.Infoln("Setup Database")
-	database.Setup(dbName, location, user, password, port)
+	database.Setup(dbName, location, user, password, port, logPath)
 	database.GetWorkingInstance().MigrateSchema()
 	//Add Default Fabric from here
 	alog := logging.AuditLog{Request: &logging.Request{Command: "default operations"}}
@@ -120,6 +121,7 @@ func (s *APIServer) waitShutdown() {
 
 func setupDefaultData(ctx context.Context) {
 	configObj := config.GetConfig()
+	log.Infoln("creating default data")
 	app := database.App{
 		Name:        configObj.MyAppConfig.Application.Name,
 		Description: configObj.MyAppConfig.Application.Description,
@@ -128,7 +130,7 @@ func setupDefaultData(ctx context.Context) {
 	}
 	_, err := infra.GetUseCaseInteractor().Db.GetApp(app.Name)
 	if err != nil {
-		log.Infoln("Creating app")
+		log.Infoln("Creating app as it does not exist")
 		err = infra.GetUseCaseInteractor().Db.CreateApp(&app)
 		if err != nil {
 			log.Errorln("Error creating App ", err.Error())

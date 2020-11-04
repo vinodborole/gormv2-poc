@@ -1,15 +1,16 @@
 database:
   dbname: "myapp"
-  user: "app"
-  password: "app@123"
+  user: "root"
+  password: "password"
   location: "127.0.0.1"
   port: "3306"
+  logPath: "/Users/vinodborole/Documents/personal/projects/poc/gormv2-poc/log/gorm.log"
 application:
   http-port: "8080"
-  name: "restapi-boilerplate"
-  description: "REST API boiler plate code go"
+  name: "gormv2-poc"
+  description: "Gorm version 2 POC"
 log:
-  location: "/Users/vinodborole/Documents/personal/projects/bredec/restapi-boilerplate/log/"
+  location: "/Users/vinodborole/Documents/personal/projects/poc/gormv2-poc/log/"
   # error, warning, info, debug
   level: "info"
   maxbackups: 250

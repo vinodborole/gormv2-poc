@@ -15,7 +15,7 @@ func About(w http.ResponseWriter, r *http.Request) {
 	alog, _ := LogInit(r, "Info About my app")
 	defer alog.LogMessageEnd(&success, &statusMsg)
 	alog.LogMessageReceived()
-	dbAppInfo, err := infra.GetUseCaseInteractor().Db.GetApp("restapi-boilerplate")
+	dbAppInfo, err := infra.GetUseCaseInteractor().Db.GetApp("gormv2-poc")
 	if err != nil {
 		success = false
 		statusMsg = fmt.Sprintf("Error in getting app info, reason %s", err.Error())

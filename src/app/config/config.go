@@ -30,6 +30,7 @@ type DatabaseConfig struct {
 	Password string `yaml:"password"`
 	Location string `yaml:"location"`
 	Port     string `yaml:"port"`
+	LogPath  string `yaml:"logPath"`
 }
 
 //LogConfig log config
@@ -67,8 +68,7 @@ func ReadYamlConfigFile() error {
 }
 
 func getConfigPath() string {
-	//return GetConfigPath() + "/yaml/config.yaml"
-	return "/Users/vinodborole/Documents/personal/projects/bredec/restapi-boilerplate/bin/yaml/config.yaml"
+	return GetConfigPath() + "/yaml/config.yaml"
 }
 
 //GetConfigPath get config path

@@ -14,7 +14,7 @@ func (dbRepo *DatabaseRepository) GetApp(appName string) (database.App, error) {
 
 //CreateApp create App
 func (dbRepo *DatabaseRepository) CreateApp(app *database.App) error {
-	err := dbRepo.GetDBHandle().Model(database.App{}).Save(&app).Error
+	err := dbRepo.GetDBHandle().Model(database.App{}).Create(&app).Error
 	if err == nil {
 		return err
 	}
