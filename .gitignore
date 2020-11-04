@@ -1,0 +1,14 @@
+bin
+pkg
+pkg/**
+
+.cache
+.settings
+.idea
+**/*.a
+**/.*.swp
+*.a
+*.exe
+**/.DS_Store
+log
+**/vendor
