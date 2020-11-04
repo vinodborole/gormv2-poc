@@ -42,7 +42,7 @@ CREATE TABLE `bgp_ip_afs` (
 
 JSON Sample
 -------------------------------------
-{    "neighbor_safi": "LirmuhojeNeGJwmRRKbLqXyEZ",    "max_path": 9,    "id": 9,    "device_id": 95,    "router_bgp_id": 78,    "graceful_restart": 35,    "config_type": "PQqimUAkJdsjFyyCfkKvcgfcq",    "fabric_id": 44,    "neighbor_afi": "FTgAYKDdqxsPLKibVdKXBAiKh",    "vrf": "PAFgPsyktwTdRBCNMAHpnAJfC"}
+{    "neighbor_safi": "rBFlBIAFgDrKOrfPDTenJMqMs",    "config_type": "VhduBSxYhvHExnlfpmldJrguW",    "id": 21,    "fabric_id": 29,    "device_id": 17,    "router_bgp_id": 30,    "neighbor_afi": "wEnyFJaQGZhwMjVaBBcgSlnwt",    "vrf": "XGcnmYNhTGXggdqZZEDJexCXa",    "graceful_restart": 42,    "max_path": 80}
 
 
 

@@ -38,7 +38,7 @@ CREATE TABLE `used_ips` (
 
 JSON Sample
 -------------------------------------
-{    "ip_address": "ENgEEouVgspyHKGnqtORjqpNY",    "ip_type": "ccPHfyPKCHUeFIIjiYuLNdXTX",    "interface_id": 61,    "id": 70,    "fabric_id": 35,    "device_id": 26}
+{    "fabric_id": 71,    "device_id": 7,    "ip_address": "wqmXGQJGiKrECICurrJhvVTsD",    "ip_type": "cGxZBlytVPCujkhmrTTLRQDjq",    "interface_id": 61,    "id": 96}
 
 
 

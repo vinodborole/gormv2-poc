@@ -31,7 +31,7 @@ CREATE TABLE `fabrics` (
 
 JSON Sample
 -------------------------------------
-{    "id": 26,    "name": "WHEgYfflwqtlJIXXFetutyuQy",    "description": "EOOKCbSIPYnHVChebsSOsBYtZ",    "fabric_type": "tPiDoRAEdFynmnxLIZMlFytmq",    "stage": 55}
+{    "name": "pGeeEOhcJwDgXVQkVRkRaQame",    "description": "nurfTjPuUiIuseFxMjDReuGsk",    "fabric_type": "vKRORZUggZnICncvdcfgRdUGg",    "stage": 30,    "id": 34}
 
 
 

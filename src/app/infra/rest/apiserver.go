@@ -110,7 +110,7 @@ func (s *APIServer) waitShutdown() {
 	case sig := <-s.shutdownReq:
 		log.Printf("Shutdown request (/shutdown %v)", sig)
 	}
-	log.Printf("Stoping http server ...")
+	log.Printf("Stopping http server ...")
 	//Create shutdown context with 10 second timeout
 	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
 	defer cancel()

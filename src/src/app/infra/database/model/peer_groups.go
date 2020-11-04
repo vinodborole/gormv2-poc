@@ -39,7 +39,7 @@ CREATE TABLE `peer_groups` (
 
 JSON Sample
 -------------------------------------
-{    "id": 29,    "fabric_id": 11,    "device_id": 60,    "peer_group_name": "ouodcTPkPmlpdMHJVrIcVswYA",    "remote_asn": 58,    "graceful_shut_timer": 3,    "description": "LIoLBfNHxmAMRkJUkrsUSEOWb",    "bfd_enable": 95,    "config_type": "jOQCHlQNaUpMLsiYajXEnJsfj"}
+{    "bfd_enable": 21,    "remote_asn": 53,    "config_type": "QHgfRpiVUXrcnFvVIPXSHnZFT",    "description": "gOgskpoxkXCpMoXYgGKkmYElo",    "fabric_id": 93,    "device_id": 75,    "peer_group_name": "AATCbSaAHZlSUjmnodeMAFgHM",    "graceful_shut_timer": 70,    "id": 34}
 
 
 

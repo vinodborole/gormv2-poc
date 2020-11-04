@@ -43,7 +43,7 @@ CREATE TABLE `evpns` (
 
 JSON Sample
 -------------------------------------
-{    "config_type": "oYreQimQPPqnAUiLWRZyuiHSo",    "fabric_name": "fTOTBMROhffEeSrpXdKWOsHSN",    "device_id": 90,    "sw_evpn_name": "XalusAOirkQEAyvkxAXntcWhB",    "mac_move_limit": "OLUUOmeYxDMYOdUCcluhBsTwF",    "mac_aging_conversational_timeout": "OmMGUbQWIwYBkDrnNqTEFBXTT",    "arp_agingtimeout": "dxYOfmCyUokmklvKXgJcscdfe",    "duplicate_mac_timer_max_count": "HuqNiWBcFqKmdmsvxWjyfnBlD",    "id": 76,    "fabric_id": 96,    "device_ip": "qyTApaFEuCSFiWYECIEwJbOLQ",    "mac_aging_timeout": "axOSZKhKdXheKJUlsONAgYDie",    "duplicate_mac_timer": "GGiFCRPavqmYwcLZtRdjLuUYI"}
+{    "device_id": 87,    "mac_move_limit": "sSOREqSCwnNRmjYQhcCJeVTAs",    "mac_aging_conversational_timeout": "JrsZKDHYTFmfDtEpdtyurdiRV",    "arp_agingtimeout": "ebTSEqWtnjVOuvIxWijrlLpAX",    "config_type": "axHkLXROrTJtErWaLWQqTesuH",    "duplicate_mac_timer": "yNYMnjeouiZtuSqwneqKLfgCl",    "duplicate_mac_timer_max_count": "tWWljPalUKADLbVjiQwEFDgbb",    "id": 30,    "fabric_id": 54,    "fabric_name": "maPPryPhkJJXSjHVyFUYKCCAu",    "device_ip": "ghOlPFkrNjiLWqLWDlvofCTvP",    "sw_evpn_name": "lSZRxQFYxfSIqCfuohmsOQkZy",    "mac_aging_timeout": "sJWXKFtQndLFEnduGaXilwrjo"}
 
 
 

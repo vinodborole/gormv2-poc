@@ -55,7 +55,7 @@ CREATE TABLE `bgp_af_ip_neighbors` (
 
 JSON Sample
 -------------------------------------
-{    "peer_group_name": "SfgrMlSsAdDKQXZCSjjAyhpXt",    "bfd_rx": 17,    "enable_peer_as_check": 14,    "id": 90,    "device_id": 76,    "neighbor_afi": "DmqcFODrMLIZgXCTQRhLqNrso",    "remote_interface_id": 95,    "neighbor_safi": "DTlHmDhihvfjrKWKQvKWiNVmX",    "bfd_enable": 13,    "e_bgp_mhop": 96,    "fabric_id": 44,    "remote_device_id": 9,    "af_id": 78,    "bfd_multiplier": 45,    "is_activated": "HmnYkcuBeEHwSLHsZBQAbBRcF",    "config_type": "dNqpNZaVHFPBtXNBUixdCqlQW",    "neighbor_ip_address": "rtcXEAgRCeJFMGbXMeteqaXBS",    "remote_asn": 29,    "bfd_tx": 15}
+{    "config_type": "GhFvWOmoOkTZjbQcMHbwJvkNl",    "id": 95,    "remote_interface_id": 26,    "remote_asn": 57,    "bfd_enable": 34,    "e_bgp_mhop": 24,    "fabric_id": 27,    "remote_device_id": 95,    "neighbor_ip_address": "kNInZYnVGwrIPILrChLhxSpTd",    "bfd_tx": 44,    "bfd_multiplier": 79,    "is_activated": "wgvrLWvmgCrsmmhThmXjXNqFN",    "device_id": 37,    "af_id": 78,    "neighbor_safi": "cxeVfGMjTKdWQFAlXUjxBVisN",    "bfd_rx": 20,    "enable_peer_as_check": 68,    "neighbor_afi": "jvORErRmUROmuWokalwwhANoL",    "peer_group_name": "jnyKKiTiIvfMwMlduBDcbNBLr"}
 
 
 

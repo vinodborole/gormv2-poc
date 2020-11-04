@@ -48,7 +48,7 @@ CREATE TABLE `devices` (
 
 JSON Sample
 -------------------------------------
-{    "loopback_id": "gbcQIswTnSKIcxtCXQqwsSkbj",    "model": "DSywYkaVTXOUApaxWxgHFujTD",    "id": 55,    "ip_address": "bMElnAjnljWCVELxqxCbJVMat",    "local_as": "pysjdAHYjgHvynAjiNSiRFGJj",    "vtep_loopback_id": "UGyLKUGyEqMLhJBxRTWmNwoiQ",    "provisioning_status": 89,    "device_status": 68,    "rack": "jpKIjMnKcIXGUYEerjlSdoXfE",    "name": "DgKhZjgaoxJEDsYlRFgUOIVxr",    "device_role": "CCVFDgRXtBxDiEMvOBkQodkfm",    "device_type": "PkvKQameiQEnHBwcHALyNaywf",    "pod": "mZZPsFfRGLqIkRPlBWbvUvmTn",    "mct_role": 31,    "firmware_version": "FjSTLVPTUGdWyrJXaNJcNbhvk",    "config_gen_reason": 38,    "fabric_id": 32,    "host_name": "ZUkaubZrmeMXEGSPicjpaLukX",    "asn": "ejVRZeJayNOYbuMGDwuABIjwe",    "is_admin_state_up": 17}
+{    "pod": "coYOIlbbOWdUbtWRiJfXoUvWi",    "device_status": 81,    "loopback_id": "lPmfCUdWDgWQDJLqLHFLkoXII",    "name": "yxtqxCiDaQUPsrNkDEdkVJOZX",    "ip_address": "IWMJctZNfBoLcXxhSXbwEIyRE",    "local_as": "VTSbSXTDstytuVHOOpYGYJnTf",    "host_name": "TAPyFYeEaYQtRRAPMpAWsjlmE",    "rack": "hTmQywBopXFjwDAExbockROhZ",    "asn": "WCiupmrABRVXxgMuapNfLlJIE",    "mct_role": 67,    "provisioning_status": 94,    "config_gen_reason": 12,    "device_role": "HuDhVNMAlahmalYyUGgjlxJNO",    "device_type": "tCJdMyBZrWEVrGTcUIbFqKvNr",    "firmware_version": "WbtCKJZSwgRGtcecLWfHXOkAH",    "is_admin_state_up": 21,    "id": 28,    "fabric_id": 52,    "vtep_loopback_id": "whgCPyZDvkguElpqidVuHeJWO",    "model": "umWcgOHmMphwOiqNWUutUkfAt"}
 
 
 

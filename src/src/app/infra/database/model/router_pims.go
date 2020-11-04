@@ -37,7 +37,7 @@ CREATE TABLE `router_pims` (
 
 JSON Sample
 -------------------------------------
-{    "device_id": 91,    "vrf": "bFJjkpPXWsnWmiHEyyoQTXsgW",    "ssm_enable": 16,    "mdt_range": "dHUZBWMatDcBhOaOePnFsjihL",    "config_type": "JXkOUotwSKgBXeRtsTjKWZSNE",    "id": 73,    "fabric_id": 63}
+{    "mdt_range": "GgaDSalopdNZCAivejlWFVvVt",    "config_type": "ibHSVqPkeIjrZlXhfbFZoaTge",    "id": 59,    "fabric_id": 97,    "device_id": 47,    "vrf": "SJRjZsyFyAmDxHtjdCwyxsFPA",    "ssm_enable": 68}
 
 
 

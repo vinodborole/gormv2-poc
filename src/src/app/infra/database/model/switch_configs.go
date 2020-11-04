@@ -43,7 +43,7 @@ CREATE TABLE `switch_configs` (
 
 JSON Sample
 -------------------------------------
-{    "as_config_type": "giENtPpXfIGpwqSGBYibIiPRR",    "device_ip": "MdAqGjZmXwBNcWhUttfSHEWAL",    "local_as": "CQbDxiIYXBDpjxVHWLClaxqeN",    "loopback_ip": "nhSNYtywbPkITUAxxLaItGBXg",    "vtep_loopback_ip": "BCGTKPdULeYoVgvcYpbdiYUTc",    "loopback_ip_config_type": "RtyjBQcdhZkCGtvWuVkmjjeBp",    "vtep_loopback_ip_config_type": "fhTIIcSJurCwAWNZtSLiJKZdy",    "vtep_loop_back_id": "ooxkPTOIWXUyEJiqCmSxAlIMG",    "loop_back_id": "LSCdrjDQWxfZgAjXSgDdqkZxM",    "id": 70,    "device_id": 39,    "fabric_id": 87,    "role": "AVCyEkoFCrUmQUxfUhfkmMrgZ"}
+{    "device_ip": "uQCsqAbJmfIITGgUvhRaVcHwN",    "local_as": "mbpxmRmNliPgWbUvcXJmkAAuO",    "as_config_type": "wFgJXmdjqGmCeIEcHjBokhwKQ",    "vtep_loopback_ip_config_type": "hWtNjkrqdLAkkianVBWkvACrY",    "vtep_loop_back_id": "PWewnQpFrRPIfpXnuyLjSdqpj",    "loop_back_id": "bWiEhDmUdIvOfmCGeDsHUgvix",    "fabric_id": 81,    "device_id": 58,    "loopback_ip": "kVOrrbVAXJtfbmRwcdTNlMIjD",    "vtep_loopback_ip": "RaCGQYkUtHHrAJmiebTLcjvEp",    "role": "vSvGxVdglXpaZYZJjGjDybsrm",    "loopback_ip_config_type": "XDVuZptjSnjUuTRJmYQanVprJ",    "id": 12}
 
 
 

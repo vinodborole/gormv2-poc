@@ -5,6 +5,7 @@ import (
 	"app/infra/rest/converter"
 	"fmt"
 	"net/http"
+	"time"
 )
 
 //About get app info
@@ -24,5 +25,20 @@ func About(w http.ResponseWriter, r *http.Request) {
 	}
 	fitnessApp, _ := converter.GetAppSwaggerResponse(&dbAppInfo)
 	HandleSuccessResponse(w, fitnessApp)
+	statusMsg = "Get successful"
+}
+
+//BulkInsert bulk insert
+func BulkInsert(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	success := true
+	statusMsg := ""
+	alog, _ := LogInit(r, "Bulk Insert app")
+	defer alog.LogMessageEnd(&success, &statusMsg)
+	alog.LogMessageReceived()
+	startTime := time.Now()
+	infra.GetUseCaseInteractor().Db.BulkInsertFabrics()
+	elapsedTime := time.Since(startTime)
+	HandleGenericSuccess(w, "Bulk insert elapsed time:"+elapsedTime.String())
 	statusMsg = "Get successful"
 }

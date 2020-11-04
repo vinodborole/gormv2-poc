@@ -47,7 +47,7 @@ CREATE TABLE `remote_neighbor_switch_configs` (
 
 JSON Sample
 -------------------------------------
-{    "device_id": 42,    "encapsulation_type": "IKiCCeSbgVSnfkDQufYmifaOP",    "id": 5,    "fabric_id": 65,    "peer_group_id": 40,    "remote_ip_address": "yJfjCEeyRhtDrHVHZtTxYkSlI",    "type": "JnnroOIfobpJiRRxBRqesiqer",    "remote_as": "WsRXOvXMAJrTqwyDrWqijVxle",    "config_type": "SyNETkEaNTIYJIhJwEQAkeiWO",    "remote_interface_id": 7,    "remote_device_id": 21}
+{    "remote_as": "YTOXcXyCfSSDQtQpGBYmsEMAN",    "fabric_id": 64,    "remote_interface_id": 6,    "remote_device_id": 37,    "remote_ip_address": "QAcyplHRZUWhIBFYmoNhOqRlJ",    "type": "NTMapaWfPkPnLErsvrJuEqJKu",    "id": 77,    "device_id": 66,    "peer_group_id": 24,    "encapsulation_type": "JsdGXivEiCZRNfuCUEauXZKrO",    "config_type": "vGuhJROTROdFNSptFNDfekrfR"}
 
 
 

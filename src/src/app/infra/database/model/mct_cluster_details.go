@@ -42,7 +42,7 @@ CREATE TABLE `mct_cluster_details` (
 
 JSON Sample
 -------------------------------------
-{    "node_id": 26,    "node_internal_ip": "vigZXjuUOFjUuwIoypVjUNHlg",    "node_is_local": "tYIbksFsnStArhcKMJoSwvbsZ",    "id": 85,    "principal_switch_mac": "vouguHDwIDkKHcrOKPveRjUbh",    "device_id": 42,    "node_principal": "ukKmolWjAfoIBCbvrFYhLvboa",    "serial_nnum": "YqDRBGWOokbVTUBkeIBdDBtlr",    "node_status": "FCRwvgIqYBkXUFoAslAViwYGc",    "node_switch_type": "KWTOAaArJyXBeZiRRAcXISuHV",    "node_public_ip": "jmsRXZuMjviudNiToTQPJDsyi",    "node_condition": "vKwLMICGUPwpIkQPuDUKUjRmB",    "firmware_version": "YWVlQJHeDZaNvCHVMKZuWqLWk",    "node_mac": "PiLeexHZUGhyaIPQQHnFwbcDQ"}
+{    "node_is_local": "kvXUZJlQSukTFQNuYgUqmpbKU",    "node_condition": "UwZvxcwaEuREGqfQgReKICBRo",    "firmware_version": "lqthgXjUGKLRYURDfkPUAGGBT",    "node_switch_type": "CuVaTRMerZaMFfuoBoeMdTuwy",    "id": 36,    "principal_switch_mac": "tsbQcTgBEVRmbwLtsPNfNStWs",    "node_principal": "SEInkivQhYIxLkwhHPkdldfne",    "node_status": "UgCUnFlUVyetBtlEeIDfimoQt",    "device_id": 50,    "node_public_ip": "MKGAVYkNBgYSfGFMbNfCGViWh",    "serial_nnum": "PCwbpwcdeZbohtWAMGmqblDeO",    "node_mac": "SCKvoobNMvhWhkMHodQmXULDq",    "node_id": 30,    "node_internal_ip": "tpuaXoxQkjRdFgspYbCgKMOmG"}
 
 
 

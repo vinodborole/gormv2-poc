@@ -38,7 +38,7 @@ CREATE TABLE `fabric_errors` (
 
 JSON Sample
 -------------------------------------
-{    "device_role": "cJbecWGfmQUAhqwBXCEhsZkWt",    "error_type": "ZYIeKRbhOtVijPueSlKsoauJd",    "error_reason": "DJlEykhLMXWBIUrgZntfgrCRC",    "id": 56,    "fabric_id": 30,    "fabric_name": "uNQYEgHGnYbBJVKRbfNrNRRGx",    "device_id": 36,    "device_ip": "YcjFvBwUUeRFPQniCZqbSqyQA"}
+{    "error_reason": "ZdGXATRoDrapErnwwLrBiDkoX",    "id": 99,    "fabric_id": 86,    "fabric_name": "iLAeaeQenWmpdSMDSDjHgyUlb",    "device_id": 40,    "device_ip": "POGkAJVRkBraexxkSIodOnhKG",    "device_role": "MnCDYEdOobgkLZptoHYBQhVaJ",    "error_type": "hfRDOJdtcSwnbkbNBxkcHkptg"}
 
 
 

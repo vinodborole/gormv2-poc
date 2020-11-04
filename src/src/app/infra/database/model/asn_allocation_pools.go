@@ -32,7 +32,7 @@ CREATE TABLE `asn_allocation_pools` (
 
 JSON Sample
 -------------------------------------
-{    "fabric_id": 13,    "asn": 5,    "device_role": "jGJVkMghkIKYcpaKtlpWKOuaO",    "id": 98}
+{    "device_role": "tkWyGhymiZCOjcOaoLpGrxBay",    "id": 97,    "fabric_id": 55,    "asn": 24}
 
 
 

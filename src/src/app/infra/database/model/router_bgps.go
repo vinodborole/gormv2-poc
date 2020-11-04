@@ -44,7 +44,7 @@ CREATE TABLE `router_bgps` (
 
 JSON Sample
 -------------------------------------
-{    "bfd_rx": 43,    "network_address": "RHfGblLsUgvrqOgqgBMhhJuFt",    "fabric_id": 77,    "bfd_multiplier": 87,    "device_id": 63,    "bfd_enable": 92,    "redistribute_type": "ZOpOkMEQHxjRWmDYeHovfnKWn",    "as_4_enable": 51,    "config_type": "oBljHZlSNfsZvArjFvglDUjEI",    "id": 60,    "local_asn": 5,    "router_id": "hQTAJCHHOxnbpZNLbuHmuiXOp",    "bfd_tx": 38,    "fast_fallover": 97}
+{    "id": 31,    "bfd_tx": 55,    "bfd_multiplier": 18,    "network_address": "cqKqoJvjZAHGYytpwueWjSVIM",    "config_type": "grwUNEWxSFrKaLWeIeKcMtQHl",    "local_asn": 44,    "router_id": "XcsAXvbfXmcIbgdrDIIKYbSfN",    "bfd_enable": 50,    "redistribute_type": "WocuaJIbfujOrpTVaEMKYhDYx",    "fast_fallover": 71,    "fabric_id": 49,    "as_4_enable": 76,    "device_id": 38,    "bfd_rx": 97}
 
 
 

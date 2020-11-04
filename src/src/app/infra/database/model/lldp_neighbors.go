@@ -55,7 +55,7 @@ CREATE TABLE `lldp_neighbors` (
 
 JSON Sample
 -------------------------------------
-{    "id": 98,    "device_two_id": 41,    "device_one_role": "tihahveeKcYuZagwbESGVVlha",    "device_two_role": "GIOJRBFKHWNGAXYASsGgdJhLZ",    "interface_one_type": "HUgbcTDMXSOLpAUSKlBjeSZNX",    "interface_one_ip": "BCmDrRjWSIqlrQBCrOWlsLhMV",    "interface_one_speed": "ZJUZscTUlIhdCuAxUiaVEEJXn",    "interface_two_name": "NjUYukCIOILnQMWAPfplegCyH",    "interface_two_ip": "dkARJDJjdLGHbaVZVnoeBTkJe",    "fabric_id": 5,    "interface_one_id": 35,    "interface_two_id": 35,    "inventory_interface_two_id": 41,    "interface_one_name": "vrrZeyBYeTsLqqlyNBAtjjoCu",    "device_one_id": 58,    "inventory_interface_one_id": 89,    "interface_two_type": "kdjfRqEXnZZfjjvCSWwmlyeQa",    "interface_two_speed": "RqDdjZFCXHHTKwcnPjUUKbKhw",    "config_type": "yvnOcokaCWHPsWxbLKFFNgxlv"}
+{    "interface_two_id": 88,    "device_two_role": "wlmTvQhATNRUpDdegJndHPwML",    "interface_one_name": "BAbTugfBrsRCbqOYJAwkgbXSa",    "interface_one_type": "owbgXgEXeGngTYXOEeXsWIQNf",    "interface_two_name": "PlkGaRRBaSOucEuwaQgwrQeXn",    "id": 80,    "fabric_id": 21,    "interface_one_id": 73,    "interface_two_speed": "sLLYmxkZStgONAgiiCvNAcXao",    "interface_two_ip": "WHnvEkthZPBmReBHkZbIscrLN",    "device_one_id": 82,    "interface_one_ip": "HAypXseAsUhxQFoqSmnOjwbDZ",    "interface_one_speed": "vPySflWwimafxUiJoTEAnetML",    "device_one_role": "qLuKfWgDJXRsAMoKcJqrnvcLF",    "interface_two_type": "DhWjuvlhLALHYLlPtFPfBpojW",    "config_type": "kIuwUsKHEsiMqcvEPdpDcGxxd",    "device_two_id": 33,    "inventory_interface_one_id": 69,    "inventory_interface_two_id": 28}
 
 
 

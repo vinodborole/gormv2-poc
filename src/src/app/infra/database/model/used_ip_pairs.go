@@ -45,7 +45,7 @@ CREATE TABLE `used_ip_pairs` (
 
 JSON Sample
 -------------------------------------
-{    "interface_one_id": 70,    "id": 88,    "device_two_id": 0,    "ip_address_two": "keplnUaRsBKRLApybyZhHyiqU",    "ip_type": "taYbwOTHytKoFUYtMXPxWebkx",    "fabric_id": 13,    "device_one_id": 10,    "ip_address_one": "asQZaBNAOmEUBXFIVJZMbSvjo",    "interface_two_id": 22}
+{    "id": 57,    "ip_address_two": "LCqNDuwcCgtmRkSeuJvfHnAWx",    "ip_type": "NuQFbjSufREsDnmbHpmykZOHq",    "interface_two_id": 35,    "interface_one_id": 64,    "fabric_id": 94,    "device_one_id": 36,    "device_two_id": 11,    "ip_address_one": "VvxTkxPiUieyUEVAZeFlNjWdq"}
 
 
 

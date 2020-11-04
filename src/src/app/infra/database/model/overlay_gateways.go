@@ -43,7 +43,7 @@ CREATE TABLE `overlay_gateways` (
 
 JSON Sample
 -------------------------------------
-{    "fabric_name": "IGYEfUcAELYnfmKMmqyRcqLMe",    "device_id": 97,    "device_ip": "nYcjMlsKZVeYsRmDkQgsTTVnI",    "map_vni_auto": "VToyeFWZWLhWEpWILsGiREffh",    "optimized_replication": 94,    "underlay_mdt_default_group": "rWgrhlvlMWSZdSvFhHITsdvHh",    "id": 85,    "sw_overlay_gw_name": "GBnZEercHkYamRYNrVJWfEXwB",    "gw_type": "nrebkTefCGQDgKvlgqmlCxavq",    "vtep_loopback_port_number": "qcxcHgQyKQPwtBuqSetQEnklC",    "activate": "YqXmFvSPTstTYgKyWUVTxKeKT",    "config_type": "ATZEmRDRtgsrXmKqfemHcrCON",    "fabric_id": 55}
+{    "sw_overlay_gw_name": "ZYcbTpLiNCdekXcvJqVmkSmSW",    "vtep_loopback_port_number": "KJWTdFJNeFpiXxhUpFOrpLOSC",    "optimized_replication": 25,    "underlay_mdt_default_group": "fCyyfCmlwkEnRxFsadSMDEDIO",    "config_type": "KUwDhbdaEcRUSYSBncnVEEukl",    "activate": "qgVliBRAlCegwnJSZCHDShnAZ",    "id": 96,    "fabric_id": 3,    "fabric_name": "QVpstiwcyxoODsIYOTJrWqOwo",    "device_id": 22,    "device_ip": "RLrWbwJlIBOxqLKqCKxebfjpi",    "gw_type": "nxmxqAIYmrrSCMNHGhGbrJaGO",    "map_vni_auto": "nytfHtYmFVRvkuNejlhUKxsRq"}
 
 
 

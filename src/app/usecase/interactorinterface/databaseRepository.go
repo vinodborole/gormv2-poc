@@ -16,4 +16,7 @@ type DatabaseRepository interface {
 	//App Info
 	GetApp(appName string) (model.Apps, error)
 	CreateApp(app *model.Apps, ctx context.Context) error
+
+	//Fabric
+	BulkInsertFabrics() error
 }

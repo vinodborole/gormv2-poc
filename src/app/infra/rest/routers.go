@@ -54,4 +54,10 @@ var routes = Routes{
 		Pattern:     "/v1/about",
 		HandlerFunc: ohandler.About,
 	},
+	Route{
+		Name:        "Index",
+		Method:      "GET",
+		Pattern:     "/v1/bulkInsert",
+		HandlerFunc: ohandler.BulkInsert,
+	},
 }

@@ -44,7 +44,7 @@ CREATE TABLE `interface_switch_configs` (
 
 JSON Sample
 -------------------------------------
-{    "fabric_id": 82,    "donor_type": "crvotOFmeAlxsiAGRgKDVAHLs",    "ip_pim_sparse": 58,    "config_type": "CWImvfKIhUUcoKuuZkxcNhokd",    "description": "JXAaFZJZgyXgrPwOusopCfYqO",    "ip_address": "rDEUmfCfhKuKGTIUXitGqjOoN",    "id": 87,    "device_id": 7,    "interface_id": 56,    "int_type": "JNPsGHXOnVsHDHaXAITAqqBUF",    "int_name": "HInPaWhSUrUBVHBRYnaIVXPjv",    "donor_name": "AoSPUGAAZHVkVQCQDCsEjmEAN"}
+{    "donor_name": "dvmDDGvhqqEqpjJXFRefrkBNj",    "ip_address": "krNcMVcBaymGisHWaLjFrMqjr",    "ip_pim_sparse": 96,    "config_type": "VrQLwjkQGLiVmNXwwopvSayDU",    "fabric_id": 89,    "device_id": 78,    "int_type": "sVCcQdEJDjKtoswYwiTGrshFr",    "donor_type": "eyHccCkVuBogQiGGZuRkbiema",    "description": "IvkFsMjvsJCsNPNixrbimOAUD",    "id": 93,    "interface_id": 79,    "int_name": "CDmyoSWTlcOTmgplwwwkMgMwG"}
 
 
 

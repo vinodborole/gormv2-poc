@@ -39,7 +39,7 @@ CREATE TABLE `bgp_evpn_afs` (
 
 JSON Sample
 -------------------------------------
-{    "retain_route_target_all": 10,    "graceful_restart": 66,    "config_type": "bchKfPRgGBnkCUZplYLUEOUtR",    "id": 22,    "fabric_id": 59,    "device_id": 52,    "router_bgp_id": 28}
+{    "retain_route_target_all": 87,    "graceful_restart": 18,    "config_type": "jpKRTAggJDLsmdyBOLLJJlcEW",    "id": 65,    "fabric_id": 70,    "device_id": 97,    "router_bgp_id": 24}
 
 
 

@@ -33,7 +33,7 @@ CREATE TABLE `ip_pair_allocation_pools` (
 
 JSON Sample
 -------------------------------------
-{    "id": 81,    "fabric_id": 17,    "ip_address_one": "OjGdgxLmTNruCoXXPkmqaWXTR",    "ip_address_two": "dOsrxSxYHpSxqDiCiiShxDqhE",    "ip_type": "NwQfisinugqgCdcwaewEJYUCn"}
+{    "id": 76,    "fabric_id": 43,    "ip_address_one": "xhmXLYpLAgfBkZBtDDrjlEMLM",    "ip_address_two": "ligKoooMVplZSbIbxqwDcbAkp",    "ip_type": "snLiYvkrDntfrUHCFqHByccNC"}
 
 
 

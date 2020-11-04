@@ -37,7 +37,7 @@ CREATE TABLE `execution_logs` (
 
 JSON Sample
 -------------------------------------
-{    "id": 40,    "params": "HlZIFSwEpjpfpHbrcRafEXprw",    "start_time": "LOVuErFOtmFLxmllWFAUXsJKg",    "end_time": "WreBLPoEkMfaAeFiwkdqCuxRf",    "duration": "yxRbtlAFkRdUSPxoOneHYYckr",    "created_at": "2174-03-18T13:40:15.038220855+05:30",    "uuid": "iwAQmiEsWXAShcULOEaKwNrUv",    "command": "DfRCCxKPiNVWwqYZXreOcYefY",    "status": "LgxaqgMTZsmGoWaTyWLZilIWI",    "user_name": "iSBqEwYiaKBGVURpTKfPuBsoG"}
+{    "id": 58,    "uuid": "cutNGNkanqgvSkMeoVLGHJGvl",    "params": "aZoLDLZLyKlQOYJBIirASdvsf",    "status": "NmdGhScIPWgCVSCKLyhHbZneY",    "end_time": "QmmgqBqjXfpBgQdyhtpUcxIRc",    "command": "OnGhMxxKFSjsSLNGTOHrdDtpT",    "start_time": "DHrJwLHCptmIfsAAXQermghvh",    "duration": "ncUAPmnXHqZvyKpMvHcWJmsPA",    "created_at": "2259-11-22T19:04:40.073958882+05:30",    "user_name": "QvddpwgensPIwhUPonPflsfgC"}
 
 
 

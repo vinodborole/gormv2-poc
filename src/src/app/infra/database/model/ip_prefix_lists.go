@@ -41,7 +41,7 @@ CREATE TABLE `ip_prefix_lists` (
 
 JSON Sample
 -------------------------------------
-{    "id": 83,    "device_id": 10,    "seq": 53,    "afi": "LjZnHcGbCaZMNChXViMkVbblL",    "prefix_len_ge": 81,    "config_type": "pkBpiwABVmuQPtkYmZkXXpXJg",    "fabric_id": 88,    "name": "fUnnynnuocjVEuWVhQNWearcb",    "action": "eCudxuKclMaKBDbuBgIKUKToJ",    "ip_prefix": "EeGnJkqfPgLLjFOwmSkWOVlOg",    "prefix_len_le": 96}
+{    "id": 71,    "fabric_id": 58,    "device_id": 39,    "seq": 50,    "action": "ydXaGmLiFumoeGcPGqhSqwKBd",    "name": "jDcFXmVUjORdwGXWlxbxLZbYl",    "afi": "UoUpOYdXCGrrgkeRXYDTZxEEQ",    "ip_prefix": "oFJstdgLxZgAgBXdKQhyJyUUf",    "prefix_len_ge": 19,    "prefix_len_le": 22,    "config_type": "lPHFoUIVeOXUDlHJROFDCPcjR"}
 
 
 

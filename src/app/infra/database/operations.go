@@ -63,12 +63,16 @@ func (database *Database) open() (err error) {
 	port := database.Port
 	url := user + ":" + password + "@tcp(" + location + ":" + port + ")/" + dbName + "?charset=utf8&parseTime=True"
 
-	//Option 1
+	//Logging - Option 1
 	logPath := database.logPath
 	newLogger := database.SetupDBLogger(logPath)
-	conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: newLogger})
 
-	//Option 2
+	//GORM perform write (create/update/delete) operations run inside a transaction to ensure data consistency,
+	//you can disable it during initialization if it is not required,
+	//you will gain about 30%+ performance improvement after that
+	conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: newLogger, SkipDefaultTransaction: true})
+
+	//Logging - Option 2
 	//conn, err := gorm.Open(mysql.Open(url), &gorm.Config{Logger: NewDBLogger()})
 	//conn.Logger.LogMode(logger.Info)
 	if err != nil {

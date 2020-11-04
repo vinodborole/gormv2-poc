@@ -52,7 +52,7 @@ CREATE TABLE `cluster_members` (
 
 JSON Sample
 -------------------------------------
-{    "remote_interface_speed": 57,    "remote_interface_type": "wbQOFhuBINHsJwNRIFITtspoW",    "interface_type": "TInJoGeHBQCaDycBLORNaEyga",    "remote_interface_id": 65,    "cluster_id": 57,    "interface_speed": 99,    "remote_interface_name": "ltdIiyHALlHebtJTEIZSqAYKg",    "config_type": "qhNhHdNZofwoNyLRLRVyiMMgw",    "remote_device_id": 56,    "fabric_id": 43,    "interface_id": 24,    "device_id": 23,    "interface_name": "xPtXMygeGsUoBkOQLZZEciddC",    "id": 98}
+{    "remote_device_id": 77,    "interface_name": "HLmvPLbAmhJUWTdDCpqXKKHnX",    "remote_interface_name": "PBNKsXKcMDbJRxXdbRVDnwCRY",    "cluster_id": 80,    "remote_interface_id": 72,    "config_type": "GaoyVaOamorFWIgjhJlxSfvLk",    "interface_id": 11,    "device_id": 15,    "remote_interface_type": "SQXumeYULYQttGYKIxhUlpGsf",    "id": 42,    "fabric_id": 15,    "interface_type": "yuemhJKDBLJpncWXxcaiZFWio",    "interface_speed": 41,    "remote_interface_speed": 77}
 
 
 

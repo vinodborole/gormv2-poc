@@ -36,7 +36,7 @@ CREATE TABLE `used_asns` (
 
 JSON Sample
 -------------------------------------
-{    "fabric_id": 14,    "device_id": 14,    "asn": 86,    "device_role": "YQNaJUqCBkixODpaGpcWYupQy",    "pod": "mlHViPaTwDCGdAPGQoiSCIKVb",    "id": 22}
+{    "id": 11,    "fabric_id": 65,    "device_id": 66,    "asn": 22,    "device_role": "EmlueCnwmkesXevTVTQQfQBSU",    "pod": "QwcfXGXtdRgxJKqSEwrdtiEtk"}
 
 
 

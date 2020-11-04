@@ -42,7 +42,7 @@ CREATE TABLE `phys_interfaces` (
 
 JSON Sample
 -------------------------------------
-{    "id": 84,    "inventory_interface_id": 25,    "ip_address": "UlOpNJqSsCMeiphwyatLDMldO",    "ip_pim_sparse": 5,    "mac": "ZOKeCQixuOFjJTqdtOTpxsnlN",    "fabric_id": 87,    "device_id": 4,    "int_type": "malUDZLktiWiDXThgJphywEeL",    "int_name": "yEPnMCuXRJscmUPxxFSAbveCt",    "interface_speed": "uheSKfvNpBZruMBoWTMJmHrSf",    "identifier": "DGtbhfInbVlGhckAxoDobGrlT",    "config_type": "GkWGHGAnSnmVMZLQFrZoChsxW"}
+{    "inventory_interface_id": 84,    "int_type": "KfinFtkEqjRjJAAxrXYdbjdbp",    "interface_speed": "vTiOUAWbatyTfsOeNWRbKAskY",    "identifier": "AUvyTMCkSInbJXWrwcpIMuSbx",    "mac": "ahlngQFroICjfwnwFFAMtVuGu",    "id": 80,    "fabric_id": 18,    "device_id": 47,    "config_type": "ItGHcwcBaauItaDigByFuNTCY",    "int_name": "ocNoZTdfpPjutVYJyHOjXwuYt",    "ip_address": "mhmcrMRDnNQBvmGbCRyMlwJPW",    "ip_pim_sparse": 75}
 
 
 
