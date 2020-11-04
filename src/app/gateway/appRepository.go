@@ -1,26 +1,27 @@
 package gateway
 
 import (
-	"app/infra/database"
+	"app/infra/database/model"
 	"context"
-	"gorm.io/gorm"
+	"fmt"
 )
 
 //GetApp get app info
-func (dbRepo *DatabaseRepository) GetApp(appName string) (database.App, error) {
-	var fitnessApp database.App
+func (dbRepo *DatabaseRepository) GetApp(appName string) (model.Apps, error) {
+	var fitnessApp model.Apps
 	err := dbRepo.GetDBHandle().Where("name=?", appName).First(&fitnessApp).Error
 	if err != nil {
-		return database.App{}, err
+		return model.Apps{}, err
 	}
 	return fitnessApp, nil
 }
 
 //CreateApp create App
-func (dbRepo *DatabaseRepository) CreateApp(app *database.App, ctx context.Context) error {
-	dbRepo.GetDBHandle().Session(&gorm.Session{Logger: nil})
-	err := dbRepo.GetDBHandle().Model(database.App{}).Create(&app).Error
-	if err == nil {
+func (dbRepo *DatabaseRepository) CreateApp(app *model.Apps, ctx context.Context) error {
+	fmt.Println("creating record ", app)
+	err := dbRepo.GetDBHandle().Model(model.Apps{}).Create(&app).Error
+	fmt.Println("error in creating ", err)
+	if err != nil {
 		return err
 	}
 	return nil

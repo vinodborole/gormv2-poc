@@ -1,7 +1,7 @@
 package interactorinterface
 
 import (
-	"app/infra/database"
+	"app/infra/database/model"
 	"context"
 	"gorm.io/gorm"
 )
@@ -14,6 +14,6 @@ type DatabaseRepository interface {
 	RollBackTransaction(transaction *gorm.DB) error
 
 	//App Info
-	GetApp(appName string) (database.App, error)
-	CreateApp(app *database.App, ctx context.Context) error
+	GetApp(appName string) (model.Apps, error)
+	CreateApp(app *model.Apps, ctx context.Context) error
 }

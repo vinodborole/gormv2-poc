@@ -48,3 +48,15 @@ go install
 echo "Copy Configs"
 mkdir -p $HOME_DIR/bin/yaml
 cp -R $HOME_DIR/src/app/config/yaml/config.yaml $HOME_DIR/bin/yaml/
+
+echo "generate database models"
+export PATH=$PATH:$HOME_DIR/scripts
+gen --sqltype=mysql \
+        --connstr "root:password@tcp(localhost:3306)/myapp?charset=utf8&parseTime=True" \
+        --database myapp \
+       	--gorm \
+        --overwrite \
+        --run-gofmt \
+        --verbose \
+       	--out ../src/app/infra/database
+

@@ -4,8 +4,11 @@ import (
 	"app/config"
 	"app/infra"
 	"app/infra/database"
+	"app/infra/database/model"
 	"app/infra/logging"
 	"context"
+	"database/sql"
+	"fmt"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 	"os"
@@ -122,15 +125,26 @@ func (s *APIServer) waitShutdown() {
 func setupDefaultData(ctx context.Context) {
 	configObj := config.GetConfig()
 	log.Infoln("creating default data")
-	app := database.App{
-		Name:        configObj.MyAppConfig.Application.Name,
-		Description: configObj.MyAppConfig.Application.Description,
-		Port:        configObj.MyAppConfig.Application.Port,
-		Url:         "http://localhost",
+	app := model.Apps{
+		Name: sql.NullString{
+			String: configObj.MyAppConfig.Application.Name,
+			Valid:  true},
+		Description: sql.NullString{
+			String: configObj.MyAppConfig.Application.Description,
+			Valid:  true},
+		Port: sql.NullString{
+			String: configObj.MyAppConfig.Application.Port,
+			Valid:  true},
+		URL: sql.NullString{
+			String: "http://localhost",
+			Valid:  true},
 	}
-	_, err := infra.GetUseCaseInteractor().Db.GetApp(app.Name)
+	fmt.Println("get app info")
+	_, err := infra.GetUseCaseInteractor().Db.GetApp(configObj.MyAppConfig.Application.Name)
+	fmt.Println("err : ", err)
 	if err != nil {
 		log.Infoln("Creating app as it does not exist")
+		fmt.Println("creating app")
 		err = infra.GetUseCaseInteractor().Db.CreateApp(&app, ctx)
 		if err != nil {
 			log.Errorln("Error creating App ", err.Error())

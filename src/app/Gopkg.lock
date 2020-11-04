@@ -26,6 +26,14 @@
   version = "v1.8.0"
 
 [[projects]]
+  digest = "1:2b8838e61d4416a35d37765cfdb7359e22ee16f32d85f9832d0bf1ea422b5618"
+  name = "github.com/guregu/null"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "67b85ae3ec28456e45753cef9802e9f4e52524a9"
+  version = "v4.0.0"
+
+[[projects]]
   digest = "1:01ed62f8f4f574d8aff1d88caee113700a2b44c42351943fa73cc1808f736a50"
   name = "github.com/jinzhu/inflection"
   packages = ["."]
@@ -56,6 +64,14 @@
   pruneopts = "UT"
   revision = "b9218ef580f59a2e72dad1aa33d660150445d05a"
   version = "v2.4"
+
+[[projects]]
+  digest = "1:274f67cb6fed9588ea2521ecdac05a6d62a8c51c074c1fccc6a49a40ba80e925"
+  name = "github.com/satori/go.uuid"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
 
 [[projects]]
   digest = "1:05eebdd5727fea23083fce0d98d307d70c86baed644178e81608aaa9f09ea469"
@@ -122,12 +138,16 @@
   input-imports = [
     "github.com/google/uuid",
     "github.com/gorilla/mux",
+    "github.com/guregu/null",
     "github.com/rifflock/lfshook",
+    "github.com/satori/go.uuid",
     "github.com/sirupsen/logrus",
     "gopkg.in/natefinch/lumberjack.v2",
     "gopkg.in/yaml.v2",
     "gorm.io/driver/mysql",
     "gorm.io/gorm",
+    "gorm.io/gorm/logger",
+    "gorm.io/gorm/utils",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
